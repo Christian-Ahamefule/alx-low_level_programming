@@ -1,11 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h> /* included a standard header */
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
-
-/* main:  Entry point */
+/* main: Entry Point */
 
 int main(void)
 {
