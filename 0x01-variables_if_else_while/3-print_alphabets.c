@@ -1,10 +1,9 @@
-#include <stdh.io>
+#include <stdio.h>
 /**
- * main: Entry point 
- * Printing the alphabet in lower and upper case using putchar
- * return 0
+ * main - main block
+ * Description: Use `putchar` to print lowercase and then uppercase alphabet.
+ * Return: 0
  */
-
 int main(void)
 {
 	char c = 'a';
