@@ -5,21 +5,25 @@
  * return 0
  */
 
-int main(void){
+int main(void)
+{
 	char c = 'a';
-	char b = 'A';
 
-	while (c <= 'z'){
+	while (c <= 'z')
+	{
 		putchar(c);
 		c++;
 	}
 
-	while (b <= 'Z'){
-		putchar(b);
-		b++;
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
 
-	return (0)
+	return (0);
 }
