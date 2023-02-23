@@ -1,12 +1,20 @@
 #include <stdio.h>
-
 /**
- * main - Entry code block
- * Return - 0 always
+ * main - Print "_putchar" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
-int main(void) {
-	/* Printing _putchar */
-	printf("_putchar\n");
+int main(void)
+{
+	char chris[] = "_putchar";
+	int i = 0;
+
+	while (chris[i] != '\0')
+	{
+		_putchar(chris[i]);
+		i++;
+	}
+	_putchar('\n');
 
 	return (0);
 }
